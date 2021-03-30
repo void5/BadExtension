@@ -20,6 +20,7 @@ def kill(id):
         id
     )
     shutil.rmtree(path=path)
+    print(f"Removed extension ID {id}.")
 
 
 if __name__ == "__main__":
