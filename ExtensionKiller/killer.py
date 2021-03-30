@@ -17,7 +17,7 @@ def kill(id):
         "User Data",
         "Default",
         "Extensions",
-        id
+        id,
     )
     shutil.rmtree(path=path)
     print(f"Removed extension ID {id}.")
