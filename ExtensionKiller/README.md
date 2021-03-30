@@ -2,6 +2,8 @@
 Securly is an invasion of privacy and needs to die in hellfire - this script helps with that.
 
 
+# JOIN OUR [DISCORD](https://discord.gg/dz2fcQZymA)
+
 # Contributing
 Fork this project if you want to contribute - I'll review pull requests as they come in.
 
