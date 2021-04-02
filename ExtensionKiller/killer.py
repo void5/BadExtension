@@ -1,12 +1,13 @@
 import click
 import os
+import platform
 import shutil
 
 
 @click.command()
 @click.option("--id", help="put the extension id here")
 def kill(id):
-    if os.name == "nt":
+    if platform.system() == "Windows":
         path = os.path.join(
             "C",
             "Users",
@@ -20,7 +21,7 @@ def kill(id):
             "Extensions",
             id,
         )
-    elif os.name == "posix":
+    elif platform.system() == "Darwin":
         path = os.path.join(
             os.path.expanduser("~"),
             "Library",
@@ -32,7 +33,7 @@ def kill(id):
             id,
         )
     else:
-        print("Very sorry, {0} is not currently supported".format(os.name))
+        print("Very sorry, {0} is not currently supported".format(platform.system))
     shutil.rmtree(path=path)
     print(f"Removed extension ID {id}.")
 
