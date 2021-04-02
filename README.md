@@ -14,7 +14,7 @@ Fork this project if you want to contribute - I'll review pull requests as they 
 # How to use
 
 Install this script with `pip`. You must have Python 3.7 or newer to run this.
-This is a well-behaved command line tool. Simply invoke it by typing `killer --id [EXTENSION ID HERE]`. It does the rest, and lets you know when it's done.
+This is a ~~well-behaved command line tool. Simply invoke it by typing `killer --id [EXTENSION ID HERE]`. It does the rest, and lets you know when it's done.~~ tool that doesn't currently behave on the command line no matter how much I would like it to, you need to invoke the script manually with `python3 killer.py --id` after downloading it from source, installing it from `pip` isn't currently the way to go.
 
 # Bug reports
 
