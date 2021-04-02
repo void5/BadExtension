@@ -33,7 +33,7 @@ def kill(id):
             id,
         )
     else:
-        print("Very sorry, {0} is not currently supported".format(platform.system))
+        print("Very sorry, {0} is not currently supported".format(platform.system()))
     shutil.rmtree(path=path)
     print(f"Removed extension ID {id}.")
 
