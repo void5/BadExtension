@@ -1,5 +1,5 @@
 # BadExtension
-Securly is an invasion of privacy and needs to die in hellfire - this script helps with that.
+Securly is an invasion of privacy and is bad. This script helps kill it.
 
 
 # JOIN OUR [DISCORD](https://discord.gg/dz2fcQZymA)
